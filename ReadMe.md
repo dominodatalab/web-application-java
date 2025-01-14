@@ -61,4 +61,10 @@ After changing the port number, it should look like below:
 
 ![after_change](images/after-change.png)
 
-- Once the above is completed, navigate to the App section of your project and click om 
+- Once the above is completed, navigate to the App section of your project and click on publish.
+
+![javascript_web_app](images/javascript_web-app.png)
+
+- Once the web app is running, click on View App and you should be able to see the same Java App as seen below.
+
+![fortune_web_app](images/fortune-from-web-app.png)
