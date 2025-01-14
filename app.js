@@ -190,7 +190,7 @@ const server = http.createServer((req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 8888;
+const PORT = process.env.PORT || 8887;
 server.listen(PORT, () => {
   console.log(`Fortune Teller Server running on port ${PORT}`);
 });

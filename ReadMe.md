@@ -25,4 +25,40 @@ Data scientists can publish interactive apps to share their findings with stakeh
 
 *Steps to Test the App in a Workspace*
 
--  Launch a workspace using the environment updated above.
+-  Launch a workspace using the environment updated above and copy the contents of the `app.js` and `app.sh` files to the workspace as seen below.
+
+   ![workspace_content](images/workspace_content.png)
+  - Open a new terminal and execute the `app.js` script i.e. the content of the `app.sh` file. You should see a similar screenshot below that indicates that Javascript app is running on port 8887.
+    `node app.js`
+    ![node_running](images/node_running.png)
+
+  - To verify this from your workspace, run the below command to extract the specific URL to access the web app.
+
+    ``````
+    echo -e "import os\nprint('https://<DOMAIN>/{}/{}/notebookSession/{}/proxy/<PROXY-PORT-NUMBER>/'.format(os.environ['DOMINO_PROJECT_OWNER'], os.environ['DOMINO_PROJECT_NAME'], os.environ['DOMINO_RUN_ID']))" | python3
+    ``````
+    Replace the following values:
+    - DOMAIN: This is the URL for your domino deployment.
+    - PROXY-PORT-NUMBER: This is the port specified in your code that the webserver will listen on. In the current example, the web server has been specified to listen on port 8887.
+    
+  - Extract the URL from the above command, open a new browser and paste the URL to access your Web App. You should see a screenshot similar to the below.
+    ![fortune_teller_app](images/fortune-teller-app.png)
+
+  - Enter your name and click on `Get My Fortune` to reveal the fortune
+    ![fortune_reveal](images/fortune-reveal.png)
+
+# Steps to run the Javascript through Domino Web App
+
+After you have tested and confirmed that the Javascript app is working as expected, you can go ahead and run the App in your project. 
+
+Please note that Domino Web App runs on port 8888 by default, hence prior to running to Web App, edit the `app.js` script and change line 193 from `8887` to `8888`.
+
+Before changing the port number, it should look like below:
+
+![before_change](images/change-port.png)
+
+After changing the port number, it should look like below:
+
+![after_change](images/after-change.png)
+
+- Once the above is completed, navigate to the App section of your project and click om 
