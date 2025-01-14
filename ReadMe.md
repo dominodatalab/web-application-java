@@ -1,6 +1,7 @@
-***Developing a Web App in Javascript in Domino***
+# Developing a Web App in Javascript in Domino
 
-*Prerequisites:*
+Data scientists can publish interactive apps to share their findings with stakeholders. Apps are endlessly flexible and can do things like share results with stakeholders, host interactive analytical dashboards, provide an interface to deployed models, and much more.
+## Prerequisites:
 
 - Duplicate the environment that would be used in running the Java application.
  ![Duplicate_environment](images/duplicate_environment.png)
