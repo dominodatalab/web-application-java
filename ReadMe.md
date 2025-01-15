@@ -39,7 +39,7 @@ We will be creating a simple Node.js web server that generates random fortunes f
 
 - Further instructions on how to build a new environment can be found [here](https://docs.dominodatalab.com/en/5.11/user_guide/5dd2c1/edit-environment-definition/).
 
-*Steps to Test the App in a Workspace*
+## Steps to Test the App in a Workspace*
 
 -  Launch a workspace using the environment updated above and copy the contents of the `app.js` and `app.sh` files to the workspace as seen below.
 
