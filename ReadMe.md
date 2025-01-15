@@ -54,8 +54,8 @@ We will be creating a simple Node.js web server that generates random fortunes f
     echo -e "import os\nprint('https://<DOMAIN>/{}/{}/notebookSession/{}/proxy/<PROXY-PORT-NUMBER>/'.format(os.environ['DOMINO_PROJECT_OWNER'], os.environ['DOMINO_PROJECT_NAME'], os.environ['DOMINO_RUN_ID']))" | python3
     ``````
     Replace the following values:
-    - DOMAIN: This is the URL for your domino deployment.
-    - PROXY-PORT-NUMBER: This is the port specified in your code that the webserver will listen on. In the current example, the web server has been specified to listen on port 8887.
+    - **DOMAIN**: This is the URL for your domino deployment.
+    - **PROXY-PORT-NUMBER**: This is the port specified in your code that the webserver will listen on. In the current example, the web server has been specified to listen on port 8887.
     
   - Extract the URL from the above command, open a new browser and paste the URL to access your Web App. You should see a screenshot similar to the below.
     ![fortune_teller_app](images/fortune-teller-app.png)
