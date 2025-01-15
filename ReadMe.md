@@ -1,6 +1,27 @@
 # Developing a Web App in Javascript in Domino
 
 Data scientists can publish interactive apps to share their findings with stakeholders. Apps are endlessly flexible and can do things like share results with stakeholders, host interactive analytical dashboards, provide an interface to deployed models, and much more.
+
+We will be creating a simple Node.js web server that generates random fortunes for users based on their input. Users can enter their name, receive a personalized fortune, and toggle between light and dark themes for the webpage.
+
+## Features
+
+### Homepage:
+- A form where users can enter their name and submit it to receive a fortune.
+- A button to toggle between light and dark themes, with theme preferences saved in the browser's local storage.
+
+### Fortune Page:
+- Displays a personalized greeting using the user's name.
+- Shows a randomly selected fortune from a predefined list.
+- Includes a link to return to the homepage and generate another fortune.
+
+### Error Handling:
+- If the name is not provided in the query parameters, an error message is displayed with a link to return to the homepage.
+
+### Responsive and Styled:
+- Includes simple and responsive CSS styling for both light and dark themes.
+- Provides a smooth transition between themes.
+
 ## Prerequisites:
 
 - Duplicate the environment that would be used in running the Java application.
