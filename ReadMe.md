@@ -41,7 +41,7 @@ We will be creating a simple Node.js web server that generates random fortunes f
 
 ## Steps to Test the App in a Workspace
 
--  Launch a workspace using the environment updated above and copy the contents of the `app.js` and `app.sh` files to the workspace as seen below.
+-  Launch a workspace using the environment updated above and copy the `app.js` and `app.sh` files to the workspace as seen below.
 
    ![workspace_content](images/workspace_content.png)
   - Open a new terminal and execute the `app.js` script i.e. the content of the `app.sh` file. You should see a similar screenshot below that indicates that Javascript app is running on port 8887.
