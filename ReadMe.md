@@ -24,7 +24,7 @@ We will be creating a simple Node.js web server that generates random fortunes f
 
 ## Prerequisites:
 
-- Duplicate the environment that would be used in running the Java application.
+- Duplicate the environment that would be used in running the Javascript application.
  ![Duplicate_environment](images/duplicate_environment.png)
 
 - Update the Dockerfile instructions in the environment definition to install the necessary software and dependencies to execute the file type and script in a workspace.
@@ -81,6 +81,6 @@ After changing the port number, it should look like below:
 
 ![javascript_web_app](images/javascript_web-app.png)
 
-- Once the web app is running, click on View App and you should be able to see the same Java App as seen below.
+- Once the web app is running, click on View App and you should be able to see the same Javascript App as seen below.
 
 ![fortune_web_app](images/fortune-from-web-app.png)
